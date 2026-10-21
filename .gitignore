@@ -1,0 +1,27 @@
+# Runtime data and backups (never commit)
+runtime/
+backups/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+
+# Backend
+backend/target/
+*.class
+*.log
+.gradle/
+build/
+
+# Frontend
+node_modules/
+frontend/dist/
+.vite/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
